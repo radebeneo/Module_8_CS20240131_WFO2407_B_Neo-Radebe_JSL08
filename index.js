@@ -34,6 +34,8 @@ console.log("Branch A Info:", branchA.getBranchInfo());
 const branchB = new BankBranch({ name: "Secondary Branch", location: "Rosebank", manager: "Radebe" });
 console.log("Branch B Info (should be the same as Branch A):", branchB.getBranchInfo());
 
+console.log("Are both branches the same instance?", branchA === branchB);
+
 // This pseudo-code provides a step-by-step explanation of how to implement the Singleton Pattern for managing a single instance of the `BankBranch` class throughout the application, ensuring that multiple instances refer to the same object.
 
 // NOTES:
