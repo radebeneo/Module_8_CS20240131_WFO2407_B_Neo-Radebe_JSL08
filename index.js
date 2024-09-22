@@ -19,8 +19,10 @@ class BankBranch {
         this.branchInfo = branchInfo;
         bankBranchInstance = this;
     }
-// 4. Add methods to the `BankBranch` class for managing branch-related information. For example, you can add a method like `getBranchInfo` to retrieve branch details.
-
+    // 4. Add methods to the `BankBranch` class for managing branch-related information. For example, you can add a method like `getBranchInfo` to retrieve branch details.
+    getBranchInfo() {
+        return this.branchInfo;
+    }
 // 5. In the usage section:
 //    - Create instances of the `BankBranch` class, such as `branchA` and `branchB`, with different branch information.
 //    - Use the `getBranchInfo` method to retrieve branch information from the instances.
